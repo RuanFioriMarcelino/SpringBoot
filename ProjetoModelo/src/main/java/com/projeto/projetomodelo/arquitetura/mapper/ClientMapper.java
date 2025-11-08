@@ -16,10 +16,12 @@ import com.projeto.projetomodelo.arquitetura.entity.Person;
 public interface ClientMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "creationDate", ignore = true)
-    //Person toPerson(ClientRequestDto dto);
-
-    //@InheritConfiguration(name = "toPerson")
+    @Mapping(target = "name", source = "name")
+    @Mapping(target = "cpf", source = "cpf")
+    @Mapping(target = "email", source = "email")
+    @Mapping(target = "password", source = "password")
+    @Mapping(target = "profile", source = "profile")
+    @Mapping(target = "problem", source = "problem")
     Client toEntity(ClientRequestDto dto);
 
     List<Client> toEntityList(List<ClientRequestDto> dtos);
@@ -27,9 +29,6 @@ public interface ClientMapper {
     ClientResponseDto toResponseDto(Client client);
 
     List<ClientResponseDto> toResponseDtoList(List<Client> clients);
-
-    //@Mapping(target = "id", ignore = true)
-    //@Mapping(target = "creationDate", ignore = true)
 
     void updateEntityFromDto(ClientRequestDto dto, @MappingTarget Client client);
 }
