@@ -2,7 +2,7 @@ package com.projeto.projetomodelo.arquitetura.entity;
 
 import com.projeto.projetomodelo.arquitetura.dto.ClientRequestDto;
 import com.projeto.projetomodelo.arquitetura.enums.Profile;
-import jakarta.persistence.Column;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -10,29 +10,25 @@ import jakarta.persistence.Table;
 @Table(name = "clients")
 public class Client extends Person {
 
-    @Column(name = "problem", length = 50)
-    private String problem;
-
     public Client() {
     }
 
-    public Client(Integer id, String name, String problem) {
+    public Client(Integer id, String name) {
         super(id, name, null, null, null, null);
-        this.problem = problem;
+
     }
 
-    public Client(Integer id, String name, String cpf, String email, String password, Profile profile, String problem) {
+    public Client(Integer id, String name, String cpf, String email, String password, Profile profile) {
         super(id, name, cpf, email, password, profile);
-        this.problem = problem;
     }
 
     public void updateWithDTO(ClientRequestDto dto) {
         this.name = dto.getName();
-        this.problem = dto.getProblem();
+
     }
 
     public static Client fromDto(Integer id, ClientRequestDto dto) {
-        return new Client(id, dto.getName(), dto.getProblem());
+        return new Client(id, dto.getName());
     }
 
     public Integer getId() {
@@ -75,16 +71,8 @@ public class Client extends Person {
         this.profile = profile;
     }
 
-    public String getProblem() {
-        return problem;
-    }
-
-    public void setProblem(String problem) {
-        this.problem = problem;
-    }
-
     @Override
     public String toString() {
-        return "Client {" + super.toString() + ", problem='" + problem + "'}";
+        return "Client {" + super.toString() + "}";
     }
 }

@@ -1,19 +1,19 @@
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\service\ClientService.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Profile.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\controller\ClientController.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Technician.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Client.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Status.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Priority.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\mapper\ClientMapper.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientResponseDto.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientDTO.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\Repository\CalledRepository.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\CalledDTO.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\Repository\ClientRepository.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Person.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientRequestDto.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\service\CalledService.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Called.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\ProjetomodeloApplication.java
-C:\Users\ruanf\OneDrive - SATC - Associação Beneficente da Indústria Carbonífera de Santa Catarina\Faculdade\2ª Fase\Backend\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\TechnicianDTO.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Person.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientDTO.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Technician.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\controller\ClientController.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\mapper\ClientMapper.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientResponseDto.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\Repository\CalledRepository.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\CalledDTO.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Priority.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\service\CalledService.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Profile.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Called.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\ProjetomodeloApplication.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\Repository\ClientRepository.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\enums\Status.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\TechnicianDTO.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\dto\ClientRequestDto.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\entity\Client.java
+C:\Users\ruanf\Documents\GitHub\SpringBoot\ProjetoModelo\src\main\java\com\projeto\projetomodelo\arquitetura\service\ClientService.java
