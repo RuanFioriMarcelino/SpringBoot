@@ -13,13 +13,12 @@ public class Client extends Person {
     public Client() {
     }
 
-    public Client(Integer id, String name) {
-        super(id, name, null, null, null, null);
-
-    }
-
     public Client(Integer id, String name, String cpf, String email, String password, Profile profile) {
         super(id, name, cpf, email, password, profile);
+    }
+
+    public Client(Integer id, String name) {
+        super(id, name, null, null, null, Profile.CLIENT); 
     }
 
     public void updateWithDTO(ClientRequestDto dto) {

@@ -14,12 +14,18 @@ import com.projeto.projetomodelo.arquitetura.entity.Called;
 public interface CalledMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "priority", source = "priority")
-    @Mapping(target = "status", source = "status")
-    @Mapping(target = "title", source = "title")
-    @Mapping(target = "observation", source = "observation")
-
+    @Mapping(target = "openedAt", ignore = true)
+    @Mapping(target = "closedAt", ignore = true)
+    @Mapping(target = "client", ignore = true)
+    @Mapping(target = "technician", ignore = true)
     Called toEntity(CalledRequestDto dto);
+
+    @Mapping(target = "id", ignore = true)
+    @Mapping(target = "openedAt", ignore = true)
+    @Mapping(target = "closedAt", ignore = true)
+    @Mapping(target = "client", ignore = true)
+    @Mapping(target = "technician", ignore = true)
+    void updateEntityFromDto(CalledRequestDto dto, @MappingTarget Called called);
 
     List<Called> toEntityList(List<CalledRequestDto> dtos);
 
@@ -27,5 +33,4 @@ public interface CalledMapper {
 
     List<CalledResponseDto> toResponseDtoList(List<Called> calleds);
 
-    void updateEntityFromDto(CalledRequestDto dto, @MappingTarget Called called);
 }

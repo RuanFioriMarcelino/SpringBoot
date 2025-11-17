@@ -44,8 +44,7 @@ public class Person {
     @Column(nullable = false, updatable = false)
     protected LocalDateTime creationDate;
 
-
-    @PrePersist    // Chamado automaticamente antes de persistir (sem precisar de auditoria)
+    @PrePersist // Chamado automaticamente antes de persistir (sem precisar de auditoria)
     public void prePersist() {
         this.creationDate = LocalDateTime.now();
     }

@@ -10,16 +10,29 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.PrePersist;
+import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 @Entity
+@Table(name = "called")
 public class Called {
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
     protected Integer id;
+
+    @ManyToOne
+    @JoinColumn(name = "fk_client", nullable = false)
+    @NotNull(message = "O cliente é obrigatório")
+    private Client client;
+
+    @ManyToOne
+    @JoinColumn(name = "fk_technician")
+    private Technician technician;
 
     @Column(nullable = false, updatable = false)
     protected LocalDateTime openedAt;
@@ -46,15 +59,31 @@ public class Called {
     public Called() {
     }
 
-    public Called(Integer id, LocalDateTime openedAt, Date closedAt, Priority priority, Status status, String title,
+    // Nota: Removi o ID do construtor de campos, pois ele é gerado automaticamente.
+    public Called(LocalDateTime openedAt, Date closedAt, Priority priority, Status status, String title,
             String observation) {
-        this.id = id;
         this.openedAt = openedAt;
         this.closedAt = closedAt;
         this.priority = priority;
         this.status = status;
         this.title = title;
         this.observation = observation;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public Technician getTechnician() {
+        return technician;
+    }
+
+    public void setTechnician(Technician technician) {
+        this.technician = technician;
     }
 
     public Integer getId() {
@@ -120,5 +149,4 @@ public class Called {
                 + ", status=" + status + ", title=" + title + ", observation=" + observation
                 + "]";
     }
-
 }
